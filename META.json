@@ -1,0 +1,55 @@
+{
+   "abstract" : "Verify the consistency of license and copyright information",
+   "author" : [
+      "Nicholas Bamber <nicholas@periapt.co.uk>"
+   ],
+   "dynamic_config" : 1,
+   "generated_by" : "Module::Build version 0.38, CPAN::Meta::Converter version 2.110930",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Test-Copyright",
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "Test::More" : 0
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "Module::Build" : "0.38"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "CPAN::Meta" : 0,
+            "Email::Address" : 0,
+            "Lingua::EN::NameParse" : 0,
+            "Perl6::Slurp" : 0,
+            "Readonly" : 0,
+            "Software::LicenseUtils" : 0,
+            "UNIVERSAL::require" : 0
+         }
+      }
+   },
+   "provides" : {
+      "Test::Copyright" : {
+         "file" : "lib/Test/Copyright.pm",
+         "version" : "0.0_1"
+      }
+   },
+   "release_status" : "testing",
+   "resources" : {
+      "license" : [
+         "http://dev.perl.org/licenses/"
+      ],
+      "repository" : {
+         "url" : "http://github.com/periapt/Test-Copyright/tree"
+      }
+   },
+   "version" : "0.0_1"
+}
